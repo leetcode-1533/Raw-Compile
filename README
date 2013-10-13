@@ -1,0 +1,7 @@
+Some I don't know how to write a MAKEFILE
+Here is how I do this:
+1 compile the complex library : g++ -c complex.cpp
+2 complie the main function : g++ -c main.cpp
+3 combine the object file : g++ *.o  -o ts
+4 try to use it :./ts
+I will soon learn how to write a MAKEFILE :(

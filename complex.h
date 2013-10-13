@@ -1,15 +1,15 @@
+#include <iostream>
+using namespace std;
 
 class complex{
-        private:
-        int real;
-        int com;
+       private:
+        float real;
+        float com;
         public:
-        complex operator + (complex c1);
-        complex(){
-                real = 0;
-                com = 0;
-        }
-        void giver(int re,int co);
         void show();
-}
-
+        complex(int = 0 ,int = 0 );
+        complex operator + (complex c1);
+        complex operator - (complex c1);
+        complex operator * (complex c1);
+        complex operator / (complex c1);
+};

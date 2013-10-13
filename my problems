@@ -1,0 +1,6 @@
+I am still quite confuesd about the default variables method;
+I forgot about the friend methods, so you cannot mutiple a float number by complex number
+in the mean time, I don't know how to compulsory convert a float number into a complex number, so the complex by float way cannot work neither
+As is only a simple example of how to use the library, but I only know how to use the static library, and I am still not familiar with the dynamic library.
+So I can only simply add it as a header file and open the sources
+I didn't give the user the power to change the expample number, but it should be quite simple to do so.
